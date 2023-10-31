@@ -25,7 +25,7 @@ export default function Techs({ idTechs, setIdTechs }) {
 
   return (
     <Container id={idTechs}>
-      <h1>tecnologias</h1>
+      <h1>Tecnologias</h1>
 
       <div className="slidesContainer">
         <div className="itens">

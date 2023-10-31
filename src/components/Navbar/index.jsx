@@ -8,11 +8,11 @@ export default function Navbar({ idAbout, idProjects, idTechs }) {
     <Container>
       <ul id="nav">
         <a href="#">
-          <li>início</li>
+          <li>Início</li>
         </a>
 
         <a href={`#${idAbout}`}>
-          <li>sobre</li>
+          <li>Sobre</li>
         </a>
 
         <a href="#">
@@ -20,11 +20,11 @@ export default function Navbar({ idAbout, idProjects, idTechs }) {
         </a>
 
         <a href={`#${idProjects}`}>
-          <li>projetos</li>
+          <li>Projetos</li>
         </a>
 
         <a href={`#${idTechs}`}>
-          <li>tecnologias</li>
+          <li>Tecnologias</li>
         </a>
 
         {/* <a>

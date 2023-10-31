@@ -14,7 +14,7 @@ export default function About({ idAbout, setIdAbout }) {
 
   return (
     <Container id={idAbout}>
-      <h1>sobre</h1>
+      <h1>Sobre</h1>
 
       <div className="contentAbout">
         <div className="leftSide">

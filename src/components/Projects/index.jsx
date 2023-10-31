@@ -22,7 +22,7 @@ export default function Projects({ idProjects, setIdProjects }) {
 
   return (
     <Container id={idProjects}>
-      <h1>projetos</h1>
+      <h1>Projetos</h1>
 
       <div className="cards">
         <div className="card">
