@@ -19,7 +19,7 @@ export default function About({ idAbout, setIdAbout }) {
       <div className="contentAbout">
         <div className="leftSide">
           <img className="profilePicture" src={picture} alt="Gabriel picture" />
-          <a href="./src/assets/curriculum-vitae.pdf" download>
+          <a download="Currículo - Gabriel Vieira" href="./src/assets/curriculum-vitae.pdf">
             <button className="buttonCurriculum">
               <span>
                 baixar currículo
