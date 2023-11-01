@@ -4,6 +4,7 @@ import { Container } from './styles';
 
 import picture from '../../assets/picture.jpg';
 import arrow from '../../assets/icons/arrow-icon.svg';
+import curriculo from '../../assets/curriculo.pdf';
 
 import { useEffect } from 'react';
 
@@ -19,7 +20,7 @@ export default function About({ idAbout, setIdAbout }) {
       <div className="contentAbout">
         <div className="leftSide">
           <img className="profilePicture" src={picture} alt="Gabriel picture" />
-          <a href="./curriculo-gabriel-vieira.pdf" target="_blank">
+          <a href={curriculo} download="Currículo - Gabriel Vieira" >
             <button className="buttonCurriculum">
               <span>
                 baixar currículo
