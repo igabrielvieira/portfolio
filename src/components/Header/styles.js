@@ -65,7 +65,7 @@ export const Container = styled.div`
   .photoSide img {
     width: 236px;
     border-radius: 500px;
-    border: 1px solid #FFFFFF;
+    border: 2px solid #FFFFFF;
     background: lightgray 50% / cover no-repeat;
     box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
 
